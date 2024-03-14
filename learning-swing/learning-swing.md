@@ -14,7 +14,7 @@ javac main.java
 java main
 ```
 
-You some can change some settings to get a different program style `DateAndTime.java`:
+You can change some settings to get a different program style `DateAndTime.java`:
 
 ```Java
 //line 23 and 38 : date and time format for example : "... HH:MM ..."
