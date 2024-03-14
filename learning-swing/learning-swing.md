@@ -28,7 +28,7 @@ this.getContentPane().setBackground(new Color(76,60,130));
 
 ```
 ### Running the program from cmd
-After you have styled the program the way you like you can create a custom command to launch the program.
+After you have styled the program the way you like you can create a custom command to launch the program.<br>
 Lets see how to do that on Windows.
 
 Create a directory lets say `DateAndTime`.
