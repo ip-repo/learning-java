@@ -2,10 +2,10 @@
 ### 1: Date and Time program
 <img src="example_1_date_time/example1_date_time.png" width="200" height="200">
 
-This example `extends` a `JFrame` swing object and create a window that has a centred label with the current
+<a href="https://github.com/ip-repo/learning-java/tree/main/learning-swing/example_1_date_time">This example</a> `extends` a `JFrame` swing object and create a window that has a centred label with the current
 date and time.
 
-To use the example:
+How to run the example:
 
 ```console
 git clone https://github.com/ip-repo/learning-java.git
