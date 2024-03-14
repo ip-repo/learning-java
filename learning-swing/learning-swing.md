@@ -10,8 +10,8 @@ How to run the example:
 ```console
 git clone https://github.com/ip-repo/learning-java.git
 cd learning-java/learning-swing/example_1_date_time
-javac Main.java
-java Main
+javac main.java
+java main
 ```
 
 You can change some settings to get a different program style `DateAndTime.java`:
@@ -31,16 +31,16 @@ After you have styled the program the way you like you can create a custom comma
 Lets see how to do that on Windows.
 
 Create a directory lets say `DateAndTime`.
-Copy to that directory the files `Main.java` `DateAndTime.java` `icon.png` from the example.
+Copy to that directory the files `main.java` `DateAndTime.java` `icon.png` from the example.
 Open a cmd and navigate to `DateAndTime` directory.
 
 ```console
 cd ..\DateAndTime
-javac Main.java
+javac main.java
 ```
-Now the command `java Main` will lanuch the program(if you are in the program directory).
-
-Lets create a bat that `cd` into `DateAndTime` directory and then run the command `java Main` and when 
+Now the command `java main` will lanuch the program(if you are in the program directory).
+### Running the program from cmd
+Lets create a bat that `cd` into `DateAndTime` directory and then run the command `java main` and when 
 program is terminated the script will go back to the original cmd path.
 
 For example lets create a file named `dateandtime.bat` in `DateAndTime` directory.
