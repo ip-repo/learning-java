@@ -1,7 +1,7 @@
 # 2: Weather in a location with Open-Meteo api
 
 <img src="example_2_open_meteo/screen-open-meteo.png" width="350" height="300">
-This program extends a `JFrame` and allow user to enter a location coordinates and recive back the weather in that location. 
+This program extends a JFrame and allow user to enter location coordinates and recive back the weather in that location. 
 
 This program uses the <a href="https://open-meteo.com/"> Open Meteo API </a> so it require internet connetion.
 
