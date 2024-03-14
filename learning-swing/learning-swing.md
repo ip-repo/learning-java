@@ -27,6 +27,7 @@ label.setForeground(Color.white);
 this.getContentPane().setBackground(new Color(76,60,130));
 
 ```
+### Running the program from cmd
 After you have styled the program the way you like you can create a custom command to launch the program.
 Lets see how to do that on Windows.
 
@@ -39,7 +40,7 @@ cd ..\DateAndTime
 javac main.java
 ```
 Now the command `java main` will lanuch the program(if you are in the program directory).
-### Running the program from cmd
+
 Lets create a bat that `cd` into `DateAndTime` directory and then run the command `java main` and when 
 program is terminated the script will go back to the original cmd path.
 
