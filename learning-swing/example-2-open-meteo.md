@@ -28,7 +28,7 @@ String url_final = base_url + coordinates + current  ;
 ```
 For example here we also ask for the `wind_direction_10m`.
 ```Java
-String current = "current=temperature_2m,wind_speed_10m, ,wind_direction_10m" + "&";
+String current = "current=temperature_2m,wind_speed_10m,wind_direction_10m" + "&";
 .
 .
 .
