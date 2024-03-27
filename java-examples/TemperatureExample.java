@@ -11,21 +11,21 @@ import java.io.InputStreamReader;
 
 public class TemperatureExample {
     public static void main(String[] args) {
-        //The program attempt to execute a wmic command
+        // The program attempt to execute a wmic command
         try {
-            // create an operating system process.
+            // Create an operating system process.
             ProcessBuilder processBuilder = new ProcessBuilder(
                     "wmic", "/namespace:\\\\root\\wmi", "PATH",
                     "MSAcpi_ThermalZoneTemperature", "get", "CurrentTemperature"
             );
 
             Process process = processBuilder.start();
-            // the buffer is used to retrive process output in order to able to format it.
+            // The buffer is used to retrive process output in order to able to format it.
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 
             String line;
             int linesCounter = 0;
-            // finding the temperature line in the output and converting it to celsius.
+            // Finding the temperature line in the output and converting it to celsius.
             while ((line = reader.readLine()) != null) {
                 // Assuming the second line contains the temperature value
                 if (linesCounter == 2) {
