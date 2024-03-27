@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 /**
  * To run this program you need to have admin privileges.
  * This example show how to use ProcessBuilder to execute a command.
- * The MSAcpi_ThermalZoneTemperature class provides information about thermal zones in a computer system
+ * The MSAcpi_ThermalZoneTemperature class provides information about thermal zones in a computer system.
  * The command being executed retrive the Thermal zone current temperature.
  * The the ouput will be in celsius.
  */
