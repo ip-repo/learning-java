@@ -9,6 +9,6 @@ public class SystemInfoPop {
 		String osName = System.getProperty("os.name");
 		String osVersion = System.getProperty("os.version");
 		String osArch = System.getProperty("os.arch");
-	    JOptionPane.showMessageDialog(null,"Os: " + osName + osVersion + "\n" + "Arch: " + osArch);
+	        JOptionPane.showMessageDialog(null,"Os: " + osName + " " + osVersion + "\n" + "Arch: " + osArch);
 	}
 }
