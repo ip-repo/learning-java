@@ -1,5 +1,4 @@
 import java.io.Console;
-
 /**
  * This class is an example of using Console to collect a passowrd from user.
  * This example also show how to use ansi to print a colored output.
