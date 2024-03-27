@@ -8,7 +8,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 /**
  * This example show a task being executed periodically.
- * The task that is being executed flush the dns cahce.
+ * The task that is being executed flush the dns cache.
  * The user can pass a parameter when running the program.
  *java ScheduledTaskExample <time_in_ms> : defines the period time in seconds, 60000 is one minute.
  */
