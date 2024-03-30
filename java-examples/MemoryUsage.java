@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 /** 
 * This example use a timer to execute a 'systeminfo' command on windows to fetch RAM information.
-* The timer is set to check for updated memory information evry half a second but.
-* Different hardware will produce different result so it might be better for you to set a slower execution rate.
+* The timer is set to check for updated memory information evry half a second.
+* Different hardware will produce different results so it might be better for you to set a slower execution rate.
 */
 public class MemoryUsage {
 	static double totalMemSizeMb;
