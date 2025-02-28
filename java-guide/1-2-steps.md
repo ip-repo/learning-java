@@ -41,6 +41,38 @@ To bridge the gap and facilitate easier communication between humans and compute
 - **Efficiency**: A single command in a high-level language can be translated into many machine language instructions.
 - **Compiler**: A program that translates high-level language code into machine code, enabling the computer to execute the program.
 
+### The Process from Source Code to Target Code
+
+1. **Write the Source Code**: The programmer writes the code in a high-level programming language like Java. This source code is a human-readable text file with a `.java` extension.
+
+    ```java
+    public class Example {
+        public static void main(String[] args) {
+            System.out.println("Hello, world!");
+        }
+    }
+    ```
+
+2. **Compile the Source Code**: The source code is then fed into a compiler. The compiler translates the high-level language into intermediate bytecode, which is stored in a `.class` file. During this stage, the compiler checks for syntax errors and reports any `COMPILATION ERRORS`.
+
+    ```
+    Example.java  -->  [javac]  -->  Example.class
+    ```
+
+3. **Load and Link the Bytecode**: The Java Virtual Machine (JVM) loads the bytecode into memory. This step involves linking various libraries and modules required by the program.
+
+4. **Execute the Bytecode**: The JVM interprets or just-in-time (JIT) compiles the bytecode into machine code that the computer's CPU can execute. This machine code is specific to the architecture of the system.
+
+    ```
+    Example.class  -->  [JVM]  -->  Machine Code
+    ```
+
+5. **Run the Program and Evaluate the Results**: The program runs on the computer, producing the desired output. The programmer evaluates the results and checks for any `RUNTIME ERRORS`. If necessary, the code is debugged and recompiled.
+
+    ```
+    Output: Hello, world!
+    ```
+
 ### The Steps to Write a Program
 
 1. **Write and Save the Program**: Develop the code and save it as a file.
@@ -50,3 +82,4 @@ To bridge the gap and facilitate easier communication between humans and compute
 ### Recap
 
 High-level languages allow programmers to focus on implementing algorithms without worrying about machine code details. However, every program written in a high-level language must be translated into the unique machine code that the CPU of the system can understand to run the program.
+
