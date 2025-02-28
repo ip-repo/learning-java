@@ -54,7 +54,7 @@ public class SayHello {
 
 In Java, a private class does not need to be named the same as the filename. However, you cannot declare a top-level class as private. Private classes must be inner classes declared within another class. The filename should match the name of the outer class.
 
-Here's a meaningful example to illustrate this:
+Here's a example to illustrate this:
 
 ### `PC.java`
 ```java
