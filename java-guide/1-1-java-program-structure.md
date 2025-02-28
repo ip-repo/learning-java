@@ -1,4 +1,4 @@
-# Unit 1: Java Program Basic Structure
+# 1.1: Java Program Basic Structure
 In Java, every public class must have the same name as the file it is in. This is a requirement by the Java compiler to ensure proper organization and management of classes and files. If the class name and file name do not match, `the compiler will throw an error`.
 
 ```java
