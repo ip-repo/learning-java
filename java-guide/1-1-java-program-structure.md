@@ -4,7 +4,7 @@ In Java, every public class must have the same name as the file it is in. This i
 ```java
 /**
  * SayHello.java
- * A basic Java program that says 'hello mate'.
+ * A basic Java program that says 'hello world'.
  * 
  * This class demonstrates the structure of a simple Java program,
  * including the use of different types of comments.
